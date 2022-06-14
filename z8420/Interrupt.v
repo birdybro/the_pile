@@ -76,8 +76,8 @@ always @(RESET or FETCH) begin
     if (RESET) begin
         IED1 <= 0;
         IED2 <= 0;
-        ICB <= 0;
-        I4D <= 0;
+        ICB  <= 0;
+        I4D  <= 0;
     end else if (FETCH) begin
         IED2 <= IED1;
         if ((DI == 'hED) && ~ICB) begin
@@ -95,7 +95,5 @@ always @(RESET or FETCH) begin
         end
     end
 end
-
-
 
 endmodule

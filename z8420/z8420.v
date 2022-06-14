@@ -15,7 +15,7 @@
 module z8420
 (
     // System
-    input  RST_n, // Only Power On Reset
+    input        RST_n, // Only Power On Reset
 
     //Z80 Bus Signals
     input        CLK,
@@ -138,16 +138,16 @@ end
 // Output
 always @(posedge CLK or posedge RST_n or posedge ENA) begin
     if (~RST_n) begin
-        AREG <= {8{8'b0}};
+        AREG  <= {8{8'b0}};
         MODEA <= 2'b01;
-        DDWA <= 0;
-        MFA <= 0;
-        EIA <= 0;
+        DDWA  <= 0;
+        MFA   <= 0;
+        EIA   <= 0;
         // B <= {8{8'b0}};
         MODEB <= 2'b01;
-        DDWB <= 0;
-        MFB <= 0;
-        EIB <= 0;
+        DDWB  <= 0;
+        MFB   <= 0;
+        EIB   <= 0;
     end else if (~CLK) begin
         if (ENA) begin
             if (~CE && ~WR_n) begin
@@ -163,12 +163,12 @@ always @(posedge CLK or posedge RST_n or posedge ENA) begin
                         DDWA <= 0;
                     end else if (MFA) begin
                         IMWA <= DI;
-                        MFA <= 0;
+                        MFA  <= 0;
                     end else if (DI[0] == 0) begin
                         VECTA <= DI;
                     end else if (DI[3:0] == 4'b1111) begin
                         MODEA <= DI[7:6];
-                        DDWA <= (DI[7] && DI[6]);
+                        DDWA  <= (DI[7] && DI[6]);
                     end else if (DI[3:0] == 4'b0111) begin
                         MFA <= DI[4];
                         HLA <= DI[5];
@@ -184,12 +184,12 @@ always @(posedge CLK or posedge RST_n or posedge ENA) begin
                         DDWB <= 0;
                     end else if (MFB) begin
                         IMWB <= DI;
-                        MFB <= 0;
+                        MFB  <= 0;
                     end else if (DI[0] == 0) begin
                         VECTB <= DI;
                     end else if (DI[3:0] == 4'b1111) begin
                         MODEB <= DI[7:6];
-                        DDWB <= (DI[7] && DI[6]);
+                        DDWB  <= (DI[7] && DI[6]);
                     end else if (DI[3:0] == 4'b0111) begin
                         MFB <= DI[4];
                         HLB <= DI[5];
