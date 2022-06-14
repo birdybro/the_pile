@@ -2,6 +2,7 @@
 
 // 
 //  port of z8420.vhd to verilog by birdybro
+//  port A was disabled in the vhdl module, so this reflects that
 // 
 //  Zilog Z80PIO partiality compatible module
 //  for MZ-80B on FPGA

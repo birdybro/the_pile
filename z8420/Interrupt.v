@@ -1,3 +1,5 @@
+`timescale 1ns/1ns
+
 //
 // port of Interrupt.vhd to verilog by birdybro
 //
