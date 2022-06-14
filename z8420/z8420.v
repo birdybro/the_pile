@@ -219,28 +219,23 @@ always @* begin
     end
 end
 
-// // Interrupt Select
-// genvar i;
-// generate 
-//     for (i = 0; i < 7; i = i + 1 ) begin : INTMASK
-//     //need to fill this in with equivalent
-// endgenerate
+// Interrupt Select
+genvar i;
+generate : INTSEL
+    // for (i = 0; i < 7; i = i + 1 ) begin : INTMASKA
+    //     assign MINTA[i] = AOA ? (A[i] ~^ HLA) | IMWA[i] :
+    //                             (A[I] ~^ HLA) & ((~IMWA[I]));
+    // end : INTMASKA
+    for (i = 0; i < 7; i = i + 1 ) begin : INTMASKB
+        assign MINTB[i] = AOB ? (B[i] ~^ HLB) | IMWB[i] :
+                                (B[I] ~^ HLB) & ((~IMWB[I]));
+    end : INTMASKB
+endgenerate : INTSEL
 
 // assign INTA = AOA ? (MINTA[7] && MINTA[6] && MINTA[5] && MINTA[4] && MINTA[3] && MINTA[2] && MINTA[1] && MINTA[0]) :
 //                     (MINTA[7] || MINTA[6] || MINTA[5] || MINTA[4] || MINTA[3] || MINTA[2] || MINTA[1] || MINTA[0]);
 
 assign INTB = AOB ? (MINTB[7] && MINTB[6] && MINTB[5] && MINTB[4] && MINTB[3] && MINTB[2] && MINTB[1] && MINTB[0]) :
                     (MINTB[7] || MINTB[6] || MINTB[5] || MINTB[4] || MINTB[3] || MINTB[2] || MINTB[1] || MINTB[0]);
-
-// To-Do
-//     --
-//     -- Interrupt select
-//     --
-//     INTMASK : for I in 0 to 7 generate
-// --      MINTA(I)<=(A(I) xnor HLA) and (not IMWA(I)) when AOA='0' else
-// --                   (A(I) xnor HLA) or IMWA(I);
-//         MINTB(I)<=(B(I) xnor HLB) and (not IMWB(I)) when AOB='0' else
-//                      (B(I) xnor HLB) or IMWB(I);
-//     end generate INTMASK;
 
 endmodule
