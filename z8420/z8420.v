@@ -154,7 +154,10 @@ always @(posedge CLK or posedge RST_n or posedge ENA) begin
                 if (SELAD) begin
                     AREG <= DI;
                 end
-                if (SELAC) begin
+                // if (SELBD) begin
+                //     B <= DI;
+                // end else
+                else if (SELAC) begin
                     if (DDWA) begin
                         DIRA <= DI;
                         DDWA <= 0;
@@ -203,15 +206,33 @@ end
 
 assign A = AREG;
 
-// To-Do
-//     --
-//     -- Input select
-//     --
-//     DO<=AREG  when RD_n='0' and CE='0' and SELAD='1' else
-//          B     when RD_n='0' and CE='0' and SELBD='1' else
-// --       VECTA when VECTENA='1' else
-//          VECTB when VECTENB='1' else (others=>'0');
+// Input Select
+always @* begin
+    if (~RD_n && ~CE && SELAD) begin
+        DO <= AREG;
+    end else if (~RD_n && ~CE && SELBD) begin
+        DO <= B;
+    // end else if (VECTENA) begin
+    //     DO <= VECTA;
+    end else if (VECTENB == 1'b1) begin
+        DO <= VECTB;
+    end
+end
 
+// Interrupt Select
+genvar i;
+generate 
+    for (i = 0; i < 7; i = i + 1 ) begin : INTMASK
+    //need to fill this in with equivalent
+endgenerate
+
+// assign INTA = AOA ? (MINTA[7] && MINTA[6] && MINTA[5] && MINTA[4] && MINTA[3] && MINTA[2] && MINTA[1] && MINTA[0]) :
+//                     (MINTA[7] || MINTA[6] || MINTA[5] || MINTA[4] || MINTA[3] || MINTA[2] || MINTA[1] || MINTA[0]);
+
+assign INTB = AOB ? (MINTB[7] && MINTB[6] && MINTB[5] && MINTB[4] && MINTB[3] && MINTB[2] && MINTB[1] && MINTB[0]) :
+                    (MINTB[7] || MINTB[6] || MINTB[5] || MINTB[4] || MINTB[3] || MINTB[2] || MINTB[1] || MINTB[0]);
+
+// To-Do
 //     --
 //     -- Interrupt select
 //     --
@@ -221,10 +242,5 @@ assign A = AREG;
 //         MINTB(I)<=(B(I) xnor HLB) and (not IMWB(I)) when AOB='0' else
 //                      (B(I) xnor HLB) or IMWB(I);
 //     end generate INTMASK;
-// --    INTA<=MINTA(7) or MINTA(6) or MINTA(5) or MINTA(4) or MINTA(3) or MINTA(2) or MINTA(1) or MINTA(0) when AOA='0' else
-// --            MINTA(7) and MINTA(6) and MINTA(5) and MINTA(4) and MINTA(3) and MINTA(2) and MINTA(1) and MINTA(0);
-//     INTB<=MINTB(7) or MINTB(6) or MINTB(5) or MINTB(4) or MINTB(3) or MINTB(2) or MINTB(1) or MINTB(0) when AOB='0' else
-//             MINTB(7) and MINTB(6) and MINTB(5) and MINTB(4) and MINTB(3) and MINTB(2) and MINTB(1) and MINTB(0);
-
 
 endmodule
