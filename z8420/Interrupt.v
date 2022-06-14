@@ -82,11 +82,11 @@ always @(RESET or FETCH) begin
         IED2 <= IED1;
         if ((DI == 'hED) && ~ICB) begin
             IED1 <= 1;
-        else
+        end else begin
             IED1 <= 0;
         end else if (DI == 'hCB) begin
             ICB <= 1;
-        else
+        end else begin
             ICB <= 0;
         end else if (DI == 'h4D) begin
             I4D <= IEI;

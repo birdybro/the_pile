@@ -219,12 +219,12 @@ always @* begin
     end
 end
 
-// Interrupt Select
-genvar i;
-generate 
-    for (i = 0; i < 7; i = i + 1 ) begin : INTMASK
-    //need to fill this in with equivalent
-endgenerate
+// // Interrupt Select
+// genvar i;
+// generate 
+//     for (i = 0; i < 7; i = i + 1 ) begin : INTMASK
+//     //need to fill this in with equivalent
+// endgenerate
 
 // assign INTA = AOA ? (MINTA[7] && MINTA[6] && MINTA[5] && MINTA[4] && MINTA[3] && MINTA[2] && MINTA[1] && MINTA[0]) :
 //                     (MINTA[7] || MINTA[6] || MINTA[5] || MINTA[4] || MINTA[3] || MINTA[2] || MINTA[1] || MINTA[0]);
