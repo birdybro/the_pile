@@ -1,0 +1,694 @@
+{
+    "indent": {
+        "tokens": {
+            "alias_declaration": {
+                "alias_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "architecture_body": {
+                "architecture_keyword": {
+                    "after": 2,
+                    "token": 0
+                },
+                "begin_keyword": {
+                    "after": 2,
+                    "token": 0
+                },
+                "end_keyword": {
+                    "after": 0,
+                    "token": 0
+                }
+            },
+            "assertion": {
+                "keyword": {
+                    "after": "+1",
+                    "token": "current"
+                },
+                "report_keyword": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "severity_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "assertion_statement": {
+                "label": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "semicolon": {
+                    "after": "-1",
+                    "token": "current"
+                }
+            },
+            "association_element": {
+                "formal_part": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "attribute_declaration": {
+                "attribute_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "attribute_specification": {
+                "attribute_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "block_statement": {
+                "begin_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "block_label": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                }
+            },
+            "case_generate_alternative": {
+                "when_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                }
+            },
+            "case_generate_statement": {
+                "end_keyword": {
+                    "after": "-4",
+                    "token": "-4"
+                },
+                "generate_label": {
+                    "after": "+4",
+                    "token": "current"
+                }
+            },
+            "case_statement": {
+                "case_keyword": {
+                    "after": "+4",
+                    "token": "current"
+                },
+                "case_label": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "end_keyword": {
+                    "after": "-4",
+                    "token": "-4"
+                }
+            },
+            "case_statement_alternative": {
+                "when_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                }
+            },
+            "component_declaration": {
+                "component_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                }
+            },
+            "component_instantiation_statement": {
+                "instantiation_label": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "semicolon": {
+                    "after": "-2",
+                    "token": "current"
+                }
+            },
+            "concurrent_assertion_statement": {
+                "label_name": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "semicolon": {
+                    "after": "-2",
+                    "token": "-2"
+                }
+            },
+            "concurrent_conditional_signal_assignment": {
+                "target": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "concurrent_procedure_call_statement": {
+                "label_name": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "postponed_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "concurrent_selected_signal_assignment": {
+                "with_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "concurrent_signal_assignment_statement": {
+                "label_name": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "postponed_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "concurrent_simple_signal_assignment": {
+                "target": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "conditional_variable_assignment": {
+                "target": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "constant_declaration": {
+                "constant_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "context_declaration": {
+                "context_keyword": {
+                    "after": "+2",
+                    "token": 0
+                },
+                "end_keyword": {
+                    "after": 0,
+                    "token": 0
+                }
+            },
+            "entity_declaration": {
+                "begin_keyword": {
+                    "after": 2,
+                    "token": 0
+                },
+                "end_keyword": {
+                    "after": 0,
+                    "token": 0
+                },
+                "entity_keyword": {
+                    "after": 2,
+                    "token": 0
+                }
+            },
+            "enumeration_type_definition": {
+                "close_parenthesis": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "enumeration_literal": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "open_parenthesis": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "exit_statement": {
+                "exit_keyword": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "label": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "file_declaration": {
+                "file_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "file_open_information": {
+                "is_keyword": {
+                    "after": "current",
+                    "token": "+2"
+                },
+                "open_keyword": {
+                    "after": "current",
+                    "token": "+2"
+                }
+            },
+            "for_generate_statement": {
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "generate_label": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "full_type_declaration": {
+                "type_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "function_specification": {
+                "close_parenthesis": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "function_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "impure_keyword": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "pure_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "generate_statement_body": {
+                "begin_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "end_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                }
+            },
+            "generic_clause": {
+                "close_parenthesis": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "generic_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "generic_map_aspect": {
+                "close_parenthesis": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "generic_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "identifier_list": {
+                "identifier": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "if_generate_statement": {
+                "else_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "elsif_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "generate_label": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "if_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                }
+            },
+            "if_statement": {
+                "else_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "elsif_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "if_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "if_label": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "incomplete_type_declaration": {
+                "type_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_constant_declaration": {
+                "constant_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_file_declaration": {
+                "file_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_function_specification": {
+                "function_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_incomplete_type_declaration": {
+                "type_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_package_declaration": {
+                "package_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_procedure_specification": {
+                "procedure_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_signal_declaration": {
+                "signal_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_unknown_declaration": {
+                "identifier": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "interface_variable_declaration": {
+                "variable_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "iteration_scheme": {
+                "for_keyword": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "while_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "library_clause": {
+                "keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "loop_statement": {
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "loop_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "loop_label": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "null_statement": {
+                "label": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "null_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "package_body": {
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "package_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "package_declaration": {
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "package_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "port_clause": {
+                "close_parenthesis": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "port_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "port_map_aspect": {
+                "close_parenthesis": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "port_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "procedure_call": {
+                "procedure_name": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "procedure_call_statement": {
+                "label": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "procedure_specification": {
+                "close_parenthesis": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "procedure_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "process_statement": {
+                "begin_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "postponed_keyword": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "process_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "process_label": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "record_type_definition": {
+                "end_keyword": {
+                    "after": "-2",
+                    "token": "-2"
+                },
+                "record_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                }
+            },
+            "report_statement": {
+                "report_keyword": {
+                    "after": "+2",
+                    "token": "current"
+                },
+                "semicolon": {
+                    "after": "-2",
+                    "token": "current"
+                },
+                "severity_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "return_statement": {
+                "return_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "selected_variable_assignment": {
+                "with_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "signal_assignment_statement": {
+                "label": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "signal_declaration": {
+                "signal_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "simple_force_assignment": {
+                "target": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "simple_release_assignment": {
+                "target": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "simple_variable_assignment": {
+                "target": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "simple_waveform_assignment": {
+                "target": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "subprogram_body": {
+                "begin_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "end_keyword": {
+                    "after": "current",
+                    "token": "-2"
+                },
+                "semicolon": {
+                    "after": "-2",
+                    "token": "current"
+                }
+            },
+            "subprogram_declaration": {
+                "semicolon": {
+                    "after": "-2",
+                    "token": "current"
+                }
+            },
+            "subtype_declaration": {
+                "subtype_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "variable_assignment_statement": {
+                "label": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "variable_declaration": {
+                "shared_keyword": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "variable_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            },
+            "wait_statement": {
+                "label": {
+                    "after": "current",
+                    "token": "current"
+                },
+                "wait_keyword": {
+                    "after": "current",
+                    "token": "current"
+                }
+            }
+        }
+    },
+    "rule": {
+        "process_029": {
+            "clock": "event",
+            "disable": true,
+            "fixable": false,
+            "indentSize": 2,
+            "phase": 1,
+            "severity": "Error"
+        }
+    }
+}
