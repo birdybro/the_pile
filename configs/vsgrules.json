@@ -682,6 +682,25 @@
         }
     },
     "rule": {
+        "constant_002": {
+            "case": "lower",
+            "disable": true,
+            "fixable": false,
+            "indentSize": 2,
+            "phase": 6,
+            "severity": "Error"
+          },
+        "constant_004": {
+            "case": "lower",
+            "case_exceptions": [],
+            "disable": true,
+            "fixable": false,
+            "indentSize": 2,
+            "phase": 6,
+            "prefix_exceptions": [],
+            "severity": "Error",
+            "suffix_exceptions": []
+        },
         "process_029": {
             "clock": "event",
             "disable": true,
