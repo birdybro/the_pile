@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RawEthernet">
+</Property><Property Name="Solution File" Value="C:\Research\MPEG\ethernet_software\SendRawPacket\RawEthernet\RawEthernet.sln">
+</Property><Property Name="Date" Value="Sunday, February 11, 2007">
+</Property><Property Name="Time" Value="0:08 AM">
+</Property></Properties><Event ErrorLevel="0" Project="RawEthernet" Source="RawEthernet.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RawEthernet" Source="RawEthernet.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RawEthernet.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RawEthernet.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RawEthernet" Source="RawEthernet.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

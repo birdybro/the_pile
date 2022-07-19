@@ -1,0 +1,109 @@
+MCMASTER UNIVERSITY OPEN SOURCE SOFTWARE LICENCE
+
+
+This software licence is a legally binding agreement between McMaster University
+("MCMASTER"), with principal place of business at 1280 Main St. W., Hamilton,
+Ontario L8S 4L8 and the end user ("You") in relation to MAC_MPEG2_AV ("Software").
+
+USE OF THE SOFTWARE AND ANY DISTRIBUTION OF AND MODIFICATIONS TO THE SOFTWARE
+INDICATES YOUR ACCEPTANCE OF THIS LICENCE. IF YOU DO NOT AGREE TO THESE TERMS,
+DO NOT INSTALL, USE, MODIFY OR DISTRIBUTE THE SOFTWARE.
+
+TERMS OF USE 1. MCMASTER grants You a royalty-free licence to use, copy and
+distribute royalty-free verbatim copies of the Software in executable code and
+source code provided that: a) Each copy carries with it a copy of this Licence
+and the warranty disclaimer in paragraph nine ("Disclaimer"), as well as the
+following copyright notice: Copyright (c) 2007, McMaster University, Adam B.
+Kinsman, Nicola Nicolici; b) Each copy, when distributed in executable code,
+must contain an offer by You to provide the source code.
+
+2. You may modify copies of the Software and create derivative works based on
+the Software and distribute these modifications and derivative works provided
+that such distribution is royalty-free and that each copy: a) Carries a
+prominent notice stating that the work has been modified; b) Carries with it a
+copy of this Licence, Disclaimer and the following copyright notice: "This
+derivative work/publication includes MAC_MPEG2_AV. Copyright (c) 2007, McMaster
+University, Adam B. Kinsman, Nicola Nicolici"; and c) Contains an offer by You
+to provide the source code.
+
+3. You must not impose further restrictions on any recipient of any verbatim
+copies, modifications or derivative works of the Software.
+
+4. You must not re-distribution the Software for commercial purposes without
+express written authorization from MCMASTER. Contact McMaster University -
+McMaster Industry Liaison Office (Tel: 905-525-9140 ext
+28646; Fax: 905-546-1372; email: milodsk@mcmaster.ca) for such approval which may
+be conditioned on the payment of royalties or such other terms as MCMASTER may,
+in its sole discretion, decide.
+
+5. If You use or reference the Software in any publication (including scientific
+publications, electronic documents and websites) or derivative work, You must
+give appropriate reference to the Software and MCMASTER.
+
+OWNERSHIP 6. MCMASTER retains all right, title and interest in the Software,
+including, but not limited to, all trademarks, copyright, and patents and other
+intellectual property.  All trademarks, trade names, logos, customarily used
+symbols and other designations as used or adopted by MCMASTER, including without
+limitation the designation of the Software, will at all times be and remain the
+property of MCMASTER and cannot be used in conjunction with the distribution by
+You of the Software.
+
+THIRD PARTY RIGHTS 7. THE SOFTWARE MAY BE DEPENDENT ON PROGRAMS, OPERATING
+SYSTEMS OR OTHER INTELLECTUAL PROPERTY OF THIRD PARTIES WHICH MAY REQUIRE THIRD
+PARTY LICENCES. COMPLIANCE TO TERMS AND PAYMENT OF FEES ASSOCIATED WITH THESE
+THIRD PARTY LICENCES ARE THE SOLE RESPONSIBILITY OF YOU AND ARE NOT INCLUDED IN
+THIS LICENCE. In particular, MCMASTER does not represent or warrant that the
+Software is free of infringement of any third-party patents. Commercial
+implementations of MPEG-1 and MPEG-2 audio/video, including shareware, are
+subject to royalty fees to patent holders. McMASTER advises You that these
+patents are general in scope and may affect your implementations regardless of
+your implementation design.
+
+TERM AND TERMINATION 8. This Licence commences on the date the Software is
+electronically or physically delivered to You. This Licence will terminate
+immediately without notice if You fail to comply with any of the terms and
+conditions of this Licence.
+
+WARRANTY DISCLAIMER 9. THIS SOFTWARE IS PROVIDED "AS IS" WITH ALL FAULTS AND
+WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS, OR IMPLIED. ALL WARRANTIES AND
+REPRESENTATIONS, EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, ACCURACY AND FITNESS FOR A PARTICULAR
+PURPOSE, ARE DISCLAIMED AND EXCLUDED. MCMASTER DOES NOT WARRANT THAT THE
+SOFTWARE WILL MEET YOUR REQUIREMENTS, OR THAT THE SOFTWARE WILL OPERATE
+UNINTERRUPTED, OR ERROR FREE, OR THAT ANY DEFECTS IN THE SOFTWARE WILL BE
+CORRECTED.  YOU ASSUME ALL RISK AND RESPONSIBILITY FOR THE SELECTION,
+INSTALLATION, USE, QUALITY, PERFORMANCE, AND RESULTS OBTAINED FROM THE SOFTWARE.
+
+LIABILITY DISCLAIMER 10. IN NO EVENT WILL MCMASTER OR ANY OF ITS REPRESENTATIVES
+BE LIABLE TO YOU FOR ANY DAMAGES OF ANY KIND WHATSOEVER, INCLUDING BUT NOT
+LIMITED TO DIRECT, INDIRECT, SPECIAL, GENERAL, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, IN ANY WAY ARISING OUT OF OR IN CONNECTION WITH EITHER THE SOFTWARE,
+ITS DISTRIBUTION, USE OR PERFORMANCE, OR THIS LICENCE, AND WITHOUT REGARD TO
+WHETHER ANY CLAIM FOR DAMAGES IS BASED IN CONTRACT, WARRANTY OR TORT, OR ARISES
+UNDER STATUTE, COMMON LAW, OR OTHERWISE, OR WHETHER INJURY WAS SUSTAINED BY
+PERSONS, PROPERTY, OR OTHERWISE, OR WHETHER LOSS WAS SUSTAINED FROM THE LOSS OF
+USE, DATA, INFORMATION, BUSINESS INTERRUPTION, OR PROFITS. MCMASTER SPECIFICALLY
+DISCLAIMS ANY AND ALL LIABILITY FOR DAMAGES OF WHATSOEVER KIND AND NATURE CAUSED
+BY THE INABILITY OF THE SOFTWARE TO OPERATE EFFICIENTLY OR EFFECTIVELY. BY
+AGREEING TO THESE TERMS AND CONDITIONS, YOU WILL INDEMNIFY MCMASTER FOR ANY AND
+ALL THIRD PARTY CLAIMS FOR ANY THEORY OF LIABILITY.
+
+JURISDICTION 11. This Licence will be construed in accordance with the laws of
+the Province of Ontario, Canada and the courts of Ontario will have jurisdiction
+over all claims, disputes and actions related to this Licence.
+
+REPORTING ERRORS [optional] 12. MCMASTER does not warrant that Software will
+meet Your requirements or that its use will be uninterrupted or error free.
+Notwithstanding the foregoing, You acknowledge that if problems are encountered
+with the Software, You may notify the Authors at MCMASTER [Nicola Nicolici
+<nicola@ece.mcmaster.ca>]. MCMASTER makes no warranty that reported errors will
+be fixed.  If You transmit source code improvements or modifications to
+MCMASTER, You agree to provide to MCMASTER a non-exclusive, royalty-free licence
+to use, copy and modify such improvements or modifications.
+
+ENTIRE AGEEMENT 13. This Licence is the complete and exclusive agreement between
+both parties in relation to the Software and supersedes any proposal or prior
+agreement, oral or written, and any other communication between the parties
+relating to the subject matter of this Licence.
+
+

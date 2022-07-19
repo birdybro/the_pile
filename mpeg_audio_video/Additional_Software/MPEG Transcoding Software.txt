@@ -1,0 +1,74 @@
+ 
+  MAC_MPEG2_AV - MPEG-2 hardware implementation for Xilinx multimedia board 
+  Copyright (C) 2007 McMaster University
+ 
+==============================================================================
+
+This file provides instructions for generating MPEG streams which will work 
+correctly with the hardware implementation using the MediaCoder tool.
+
+==============================================================================
+
+MPEG FILE PREPARATION
+
+This project currently supports video at 29.97 frames per second, with an audio
+sampling rate of 48000 KHz. To transcode an existing video to MPEG-2 under this
+frame/sample rate, the "MediaCoder" tool from http://mediacoder.sourceforge.net/ 
+is an excellent resource. 
+
+- Obtain MediaCoder release 0.5.1 from the "Downloads" section 
+  of the aforementioned site
+- Within MediaCoder:
+-- Use "Add file" to select the file you wish to transcode
+-- On the "Audio" tab
+--- set "Source" to "MPlayer"
+--- set "Encoder" to "FFMPEG"
+--- set "Resample" to "48000 Hz"
+-- On the "FFMPEG" tab to the right
+--- set "Audio Format" to "MPEG Layer 2"
+--- set "Bitrate" to "192" KBps
+-- On the "Video" tab
+--- set "Bitrate" to "2500" Kbps
+--- set "Backend" to "FFMPEG"
+--- set "Source" to "Default"
+--- set "Codec" to "MPEG2"
+--- set "Format" to "MPEG2"
+-- On the "Picture" tab
+--- set "Resize" to desired picture size ( < 720x480 ) and check tickbox
+--- set "Frame Rate" to "29.97" and check tickbox
+--- set "Crop" to "Disabled"
+--- uncheck the three "Global" tickboxes
+-- From the "File" menu choose "Settings"
+--- Choose "Video Encoders"
+--- Choose "FFMPEG"
+--- Choose "Maximum number of B-frames"
+--- Enter "3" in the box on the bottom left of the window and click "Apply"
+--- Close the window and return to MediaCoder
+-- Start the transcoding process by clicking "Start"
+
+===============================================================================
+
+COPYRIGHT AND AUTHORS
+
+  Please read the `LICENSE.txt' file for copyright and warranty information.
+  Also, the file `CREDITS.txt' contains contributors and acknowledgment.
+
+  The main developer is Adam Kinsman, under the supervision of Nicola Nicolici. 
+  If you are using this design, please cite the following work:
+  
+@techreport{cite-key,
+	Author = {Kinsman, Adam B. and Nicolici, Nicola},
+	Institution = {McMaster University, Canada},
+	Title = {{MAC\_MPEG2\_AV: A Low Energy Implementation of an Audio/Video Decoder}},
+	Url = {http://www.ece.mcmaster.ca/~nicola/cadt.html},
+	Year = {2007}}
+  
+  If you have decided to further improve this work, please send your comments to:
+
+      Nicola Nicolici <nicola@ece.mcmaster.ca>
+
+  See also the home page on the Web:
+
+      http://www.ece.mcmaster.ca/~nicola/cadt.html
+
+===============================================================================

@@ -1,0 +1,45 @@
+
+  MAC_MPEG2_AV - MPEG-2 hardware implementation for Xilinx multimedia board 
+  Copyright (C) 2007 McMaster University
+ 
+==============================================================================
+
+MAIN CONTRIBUTOR AND SYSTEM INTEGRATOR
+
+	Adam Kinsman <kinsmaab@grads.ece.mcmaster.ca>
+
+OTHER CONTRIBUTORS
+
+	Phillip Kinsman <kinsmapj@muss.cis.mcmaster.ca> - 420 to 444 upsampling and display
+	Jason Thong <thongj@muss.cis.mcmaster.ca> - IDCT multipliers and colourspace conversion
+	Nicola Nicolici <nicola@ece.mcmaster.ca> - IDCT creation and optimization
+
+	Note: Although no code in the final release was contributed by Matthew Carrier and 
+	Mark Jobes, their contributions to discussions and implementation of 420 to 444
+	upsampling is worthy of mention.
+	
+===============================================================================
+
+ACKNOWLEDGMENT
+
+The authors gratefully acknowledge the Canadian Microelectronics Corporation
+(CMC) for the provision of FPGA prototyping platforms and CAD design software.
+
+===============================================================================
+
+DISCLAIMER
+
+The authors did not make any changes to the algorithm for decoding MPEG-2
+audio/video files. The authors only provide a novel hardware implementation 
+of the MPEG-2 audio/video decoding algorithms. 
+
+In any files provided with this package, the following product names, words,
+and family names are trademarks or registered trademarks of Xilinx, Inc: Xilinx
+and Xilinx ISE. For a complete list of Xilinx trademarks and service marks go to
+http://www.origin.xilinx.com/legal.htm. The following product names, words, and
+family names are trademarks or registered trademarks of Mentor Graphics
+Corporation: Mentor Graphics, Modelsim and Modelsim SE. For a complete list of
+Mentor Graphics trademarks and service marks go to
+http://www.mentor.com/terms_conditions/trademarks.cfm.
+
+===============================================================================
